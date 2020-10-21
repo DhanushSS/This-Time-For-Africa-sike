@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+body{
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603015834/Screenshot_2020-10-18_153629_l1w7oz.png");
+    background-size: cover;
+}
+
+
+.sub1 {
+    font-family: 'Piedra',
+
+}
+
+
