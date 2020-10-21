@@ -1,14 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piedra&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400&display=swap');
 
 body{
     background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603015834/Screenshot_2020-10-18_153629_l1w7oz.png");
     background-size: cover;
 }
 
+.head{
+  font-family: 'Piedra',cursive;
+  font-size: 5em;
+  text-align: center;
+}
 
-.sub1 {
-    font-family: 'Piedra',
+li{
+    font-family: 'DM Serif Text',
+    serif;
+    display: inline;
+    
+}
+
+.sec1{
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129356/annie-spratt-cVEOh_JJmEE-unsplash_mbwsfm.jpg");
+    color: orange;
+    background-size: cover;
+    text-align: center;
+    height: 35% 100%;
+    padding: 10%;
+    font-family: 'Sansita Swashed',cursive;
+    font-size: 2em;
 
 }
 
+.sec2{
+background: url("https://files.slack.com/files-pri/T015KBZHXFY-F01CWHFAAGK/doug-linstedt-jeeyzsaxbh4-unsplash.jpg");
+color: white;
+background-size: cover;
+text-align: center;
+padding: 10%;
+font-size: 2em;
+ height: 35% 100%;
+ font-family: 'Sansita Swashed',cursive;
+}
 
+.sec3{
+    background: url("https://files.slack.com/files-pri/T015KBZHXFY-F01DL6QDUKS/damian-patkowski-t-lfvx-7ivg-unsplash.jpg");
+    color: blue;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 35% 100%;
+    font-family: 'Sansita Swashed',
+    cursive;
+}
