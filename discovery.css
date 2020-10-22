@@ -12,15 +12,14 @@ html {
     font-size: 5em;
     text-align: center;
     color: orangered;
-    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603015834/Screenshot_2020-10-18_153629_l1w7oz.png");
-    padding: 10%;
-    background-size: cover;
+     background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603015834/Screenshot_2020-10-18_153629_l1w7oz.png");
+     padding: 10%;
+     background-size: cover;
 }
-
-#menu {
-    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129391/matt-atherton-sUTZ280MFpc-unsplash_tqbry8.jpg");
-    padding: 10%;
-    background-size: cover;
+#menu{
+      background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129391/matt-atherton-sUTZ280MFpc-unsplash_tqbry8.jpg");
+      padding: 10%;
+      background-size: cover;
 }
 
 #toggle {
@@ -141,7 +140,6 @@ p a {
     text-align: center;
     color: #888;
 }
-
 .sec1 {
     background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129356/annie-spratt-cVEOh_JJmEE-unsplash_mbwsfm.jpg");
     color: orange;

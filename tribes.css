@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400&display=swap');
 
-html {
+body {
     background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603015834/Screenshot_2020-10-18_153629_l1w7oz.png");
     background-size: cover;
 }
@@ -12,17 +12,9 @@ html {
     font-size: 5em;
     text-align: center;
     color: orangered;
-    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603015834/Screenshot_2020-10-18_153629_l1w7oz.png");
-    padding: 10%;
-    background-size: cover;
 }
 
-#menu {
-    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129391/matt-atherton-sUTZ280MFpc-unsplash_tqbry8.jpg");
-    padding: 10%;
-    background-size: cover;
-}
-
+/* Important styles */
 #toggle {
     display: block;
     width: 28px;
@@ -86,11 +78,13 @@ html {
     font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
     text-align: center;
     border-radius: 4px;
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129391/matt-atherton-sUTZ280MFpc-unsplash_tqbry8.jpg ");
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
     /* just for this demo */
     opacity: 0;
     visibility: hidden;
     transition: opacity .4s;
+    background-size: cover;
 }
 
 #menu:after {
@@ -140,6 +134,10 @@ p a {
     font-size: 12px;
     text-align: center;
     color: #888;
+}
+
+a {
+    color: red;
 }
 
 .sec1 {
@@ -201,4 +199,17 @@ p a {
     height: 100% 100%;
     font-family: 'Sansita Swashed',
         cursive;
+}
+
+.sec6 {
+    background: url("https://img.freepik.com/free-vector/african-fabric-animal-skin-background_23-2148121501.jpg?size=626&ext=jpg");
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+
 }
