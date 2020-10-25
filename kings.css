@@ -158,6 +158,7 @@ p a {
     background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1594132879/samples/people/jazz.jpg");
     background-size: cover;
     text-align: center;
+    color: white;
     padding: 10%;
     font-size: 2em;
     height: 35% 100%;
@@ -227,7 +228,7 @@ p a {
 
 .sec8 {
     background: url("https://www.ancient.eu/img/r/p/500x600/5365.jpg?v=1600445801");
-    color: white;
+    color: brown;
     background-size: cover;
     text-align: center;
     padding: 10%;

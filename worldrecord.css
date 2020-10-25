@@ -190,7 +190,7 @@ a {
 }
 
 .sec2 {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6TCSsLOkH74tWQq8TYi938AtyNA60YRlp2w&usqp=CAU");
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1594132880/samples/landscapes/beach-boat.jpg");
     color: white;
     background-size: cover;
     text-align: center;
@@ -201,8 +201,8 @@ a {
 }
 
 .sec3 {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6TCSsLOkH74tWQq8TYi938AtyNA60YRlp2w&usqp=CAU");
-    color: blue;
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1594132884/samples/cloudinary-group.jpg");
+    color: purple;
     background-size: cover;
     text-align: center;
     padding: 10%;
@@ -214,7 +214,7 @@ a {
 }
 
 .sec4 {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6TCSsLOkH74tWQq8TYi938AtyNA60YRlp2w&usqp=CAU");
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1594132885/samples/landscapes/nature-mountains.jpg");
     color: orangered;
     background-size: cover;
     text-align: center;
@@ -227,7 +227,7 @@ a {
 }
 
 .sec5 {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6TCSsLOkH74tWQq8TYi938AtyNA60YRlp2w&usqp=CAU");
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1594132879/samples/animals/three-dogs.jpg");
     color: white;
     background-size: cover;
     text-align: center;

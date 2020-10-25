@@ -143,7 +143,7 @@ p a {
 
 .sec1 {
     background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603480868/maths_jugthr.jpg");
-    color: orange;
+    color: white;
     background-size: cover;
     text-align: center;
     height: 35% 100%;
@@ -155,7 +155,7 @@ p a {
 
 .sec2 {
     background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603480885/astronaumy_lpbsny.jpg");
-    color: white;
+    color: red;
     background-size: cover;
     text-align: center;
     padding: 10%;
@@ -192,7 +192,7 @@ p a {
 
 .sec5 {
     background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603480868/metallurgy_yclxzs.jpg");
-    color: white;
+    color: brown;
     background-size: cover;
     text-align: center;
     padding: 10%;
