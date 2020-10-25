@@ -1,8 +1,11 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Piedra&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400&display=swap');
 
+html {
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603015834/Screenshot_2020-10-18_153629_l1w7oz.png");
+    background-size: cover;
+}
 
 .head {
     font-family: 'Piedra', cursive;
@@ -14,8 +17,11 @@
 
 }
 
-
-
+#menu {
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129391/matt-atherton-sUTZ280MFpc-unsplash_tqbry8.jpg");
+    padding: 10%;
+    background-size: cover;
+}
 
 #toggle {
     display: block;
@@ -80,13 +86,11 @@
     font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
     text-align: center;
     border-radius: 4px;
-    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129391/matt-atherton-sUTZ280MFpc-unsplash_tqbry8.jpg ");
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
     /* just for this demo */
     opacity: 0;
     visibility: hidden;
     transition: opacity .4s;
-    background-size: cover;
 }
 
 #menu:after {
@@ -138,28 +142,8 @@ p a {
     color: #888;
 }
 
-a {
-    color: red;
-}
-
-.back {
-    align-items: center;
-    display: flex;
-    padding: 10px;
-    margin-left: 650px;
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
 .sec1 {
-    background: url("https://media.tenor.com/images/efbfa1eeaef7893aa080b54dc6cebf5f/tenor.gif");
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1594132875/samples/animals/reindeer.jpg");
     color: orange;
     background-size: cover;
     text-align: center;
@@ -171,8 +155,7 @@ a {
 }
 
 .sec2 {
-    background: url("https://media1.tenor.com/images/9c1859aa2e0d75327117ef2cc00e5b2e/tenor.gif?itemid=14426145");
-    color: white;
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1594132879/samples/people/jazz.jpg");
     background-size: cover;
     text-align: center;
     padding: 10%;
@@ -182,11 +165,11 @@ a {
 }
 
 .sec3 {
-    background: url("https://media1.tenor.com/images/00710b5522175a8b0b3374065e966182/tenor.gif?itemid=8161561");
+    background: url("https://pbs.twimg.com/media/DVyTL1UVwAAdyqI.jpg");
     color: blue;
     background-size: cover;
     text-align: center;
-    padding: 15%;
+    padding: 10%;
     font-size: 2em;
     height: 35% 100%;
     font-family: 'Sansita Swashed',
@@ -195,7 +178,7 @@ a {
 }
 
 .sec4 {
-    background: url("https://media1.tenor.com/images/a9c8f02f7210ca78e283cf294196b56f/tenor.gif?itemid=16457283");
+    background: url("https://www.thefamouspeople.com/profiles/images/mansa-musa-1.jpg");
     color: orangered;
     background-size: cover;
     text-align: center;
@@ -206,9 +189,10 @@ a {
         cursive;
 
 }
+
 .sec5 {
-    background: url("https://media1.tenor.com/images/a9c8f02f7210ca78e283cf294196b56f/tenor.gif?itemid=16457283");
-    color: orangered;
+    background: url("https://answersafrica.com/wp-content/uploads/2015/10/mansa-musa-1-1280x720.jpg");
+    color: white;
     background-size: cover;
     text-align: center;
     padding: 10%;
@@ -216,10 +200,50 @@ a {
     height: 100% 100%;
     font-family: 'Sansita Swashed',
         cursive;
-
+}
+.sec6 {
+    background: url("https://www.aceschools.online/wp-content/uploads/2018/04/Kanka-Moussa.jpg");
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
 }
 
+.sec7 {
+    background: url("https://www.ancient-origins.net/sites/default/files/field/image/Sundiata-Keita-Lion-King.jpg");
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
 
+.sec8 {
+    background: url("https://www.ancient.eu/img/r/p/500x600/5365.jpg?v=1600445801");
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+
+.back {
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    margin-left: 650px;
+    text-align: center;
+}
 
 .an {
     align-items: center;
@@ -250,16 +274,4 @@ a {
     to {
         bottom: 100px;
     }
-}
-
-
-
-
-.ia{
-    display: flex;
-}
-
-.ib{
-    display: flex;
-    margin-left: 800px;
 }
