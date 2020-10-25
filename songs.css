@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400&display=swap');
 
-html {
-    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603015834/Screenshot_2020-10-18_153629_l1w7oz.png");
-    background-size: cover;
-}
 
 .head {
     font-family: 'Piedra', cursive;
@@ -15,11 +11,6 @@ html {
     background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603475798/head1_utv8qw.jpg");
     background-size: cover;
 
-}
-#menu{
-      background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129391/matt-atherton-sUTZ280MFpc-unsplash_tqbry8.jpg");
-      padding: 10%;
-      background-size: cover;
 }
 
 #toggle {
@@ -85,11 +76,13 @@ html {
     font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
     text-align: center;
     border-radius: 4px;
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129391/matt-atherton-sUTZ280MFpc-unsplash_tqbry8.jpg ");
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
     /* just for this demo */
     opacity: 0;
     visibility: hidden;
     transition: opacity .4s;
+    background-size: cover;
 }
 
 #menu:after {
@@ -140,6 +133,12 @@ p a {
     text-align: center;
     color: #888;
 }
+
+a {
+    color: red;
+}
+
+
 .sec1 {
     background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129356/annie-spratt-cVEOh_JJmEE-unsplash_mbwsfm.jpg");
     color: orange;
@@ -200,6 +199,7 @@ p a {
     font-family: 'Sansita Swashed',
         cursive;
 }
+
 
 .back {
     align-items: center;

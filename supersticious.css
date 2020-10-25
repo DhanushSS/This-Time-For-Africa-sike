@@ -2,9 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400&display=swap');
 
-html {
-    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603015834/Screenshot_2020-10-18_153629_l1w7oz.png");
-    background-size: cover;
+h1 {
+    font-size: 30px;
 }
 
 .head {
@@ -12,15 +11,104 @@ html {
     font-size: 5em;
     text-align: center;
     color: orangered;
-    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603475798/head1_utv8qw.jpg");
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603015834/Screenshot_2020-10-18_153629_l1w7oz.png");
+    padding: 10%;
     background-size: cover;
+}
+
+body {
+    margin-top: 3em;
+    background: #eee;
+    color: #555;
+    font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.sec1 {
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129356/annie-spratt-cVEOh_JJmEE-unsplash_mbwsfm.jpg");
+    color: orange;
+    background-size: cover;
+    text-align: center;
+    height: 35% 100%;
+    padding: 10%;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 2em;
 
 }
-#menu{
-      background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129391/matt-atherton-sUTZ280MFpc-unsplash_tqbry8.jpg");
-      padding: 10%;
-      background-size: cover;
+
+.sec2 {
+    background: url("https://files.slack.com/files-pri/T015KBZHXFY-F01CWHFAAGK/doug-linstedt-jeeyzsaxbh4-unsplash.jpg");
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 35% 100%;
+    font-family: 'Sansita Swashed', cursive;
 }
+
+.sec3 {
+    background: url("https://files.slack.com/files-pri/T015KBZHXFY-F01DL6QDUKS/damian-patkowski-t-lfvx-7ivg-unsplash.jpg");
+    color: blue;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 35% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+
+}
+
+.sec4 {
+    background: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fres.cloudinary.com%2Fdjeukfvxv%2Fimage%2Fupload%2Fv1603129384%2Fharshil-gudka-0prglfrYY08-unsplash_zkpiin.jpg");
+    color: orangered;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+
+}
+
+.sec5 {
+    background: url("https://media.itpro.co.uk/image/upload/t_content-image-mobile@1/v1570816060/itpro/2017/01/bigstock-beautiful-sunset-by-the-beach-13610360.jpg");
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+
+.sec6 {
+    background: url("https://img.freepik.com/free-vector/african-fabric-animal-skin-background_23-2148121501.jpg?size=626&ext=jpg");
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+.sec7 {
+    background: url("https://img.freepik.com/free-vector/african-fabric-animal-skin-background_23-2148121501.jpg?size=626&ext=jpg");
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+
+
+
 
 #toggle {
     display: block;
@@ -85,11 +173,13 @@ html {
     font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
     text-align: center;
     border-radius: 4px;
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129391/matt-atherton-sUTZ280MFpc-unsplash_tqbry8.jpg ");
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
     /* just for this demo */
     opacity: 0;
     visibility: hidden;
     transition: opacity .4s;
+    background-size: cover;
 }
 
 #menu:after {
@@ -140,72 +230,15 @@ p a {
     text-align: center;
     color: #888;
 }
-.sec1 {
-    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129356/annie-spratt-cVEOh_JJmEE-unsplash_mbwsfm.jpg");
-    color: orange;
-    background-size: cover;
-    text-align: center;
-    height: 35% 100%;
-    padding: 10%;
-    font-family: 'Sansita Swashed', cursive;
-    font-size: 2em;
 
-}
-
-.sec2 {
-    background: url("https://files.slack.com/files-pri/T015KBZHXFY-F01CWHFAAGK/doug-linstedt-jeeyzsaxbh4-unsplash.jpg");
-    color: white;
-    background-size: cover;
-    text-align: center;
-    padding: 10%;
-    font-size: 2em;
-    height: 35% 100%;
-    font-family: 'Sansita Swashed', cursive;
-}
-
-.sec3 {
-    background: url("https://files.slack.com/files-pri/T015KBZHXFY-F01DL6QDUKS/damian-patkowski-t-lfvx-7ivg-unsplash.jpg");
-    color: blue;
-    background-size: cover;
-    text-align: center;
-    padding: 10%;
-    font-size: 2em;
-    height: 35% 100%;
-    font-family: 'Sansita Swashed',
-        cursive;
-
-}
-
-.sec4 {
-    background: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fres.cloudinary.com%2Fdjeukfvxv%2Fimage%2Fupload%2Fv1603129384%2Fharshil-gudka-0prglfrYY08-unsplash_zkpiin.jpg");
-    color: orangered;
-    background-size: cover;
-    text-align: center;
-    padding: 10%;
-    font-size: 2em;
-    height: 100% 100%;
-    font-family: 'Sansita Swashed',
-        cursive;
-
-}
-
-.sec5 {
-    background: url("https://media.itpro.co.uk/image/upload/t_content-image-mobile@1/v1570816060/itpro/2017/01/bigstock-beautiful-sunset-by-the-beach-13610360.jpg");
-    color: white;
-    background-size: cover;
-    text-align: center;
-    padding: 10%;
-    font-size: 2em;
-    height: 100% 100%;
-    font-family: 'Sansita Swashed',
-        cursive;
+a {
+    color: red;
 }
 
 .back {
     align-items: center;
     display: flex;
     padding: 10px;
-    margin-left: 650px;
     text-align: center;
 }
 

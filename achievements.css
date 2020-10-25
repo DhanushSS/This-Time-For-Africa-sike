@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400&display=swap');
 
 html {
-    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603015834/Screenshot_2020-10-18_153629_l1w7oz.png");
+    background: wheat;
     background-size: cover;
 }
 
@@ -12,11 +12,10 @@ html {
     font-size: 5em;
     text-align: center;
     color: orangered;
-    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603015834/Screenshot_2020-10-18_153629_l1w7oz.png");
-    padding: 10%;
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603475798/head1_utv8qw.jpg");
     background-size: cover;
-}
 
+}
 #menu {
     background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129391/matt-atherton-sUTZ280MFpc-unsplash_tqbry8.jpg");
     padding: 10%;
@@ -143,7 +142,7 @@ p a {
 }
 
 .sec1 {
-    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603129356/annie-spratt-cVEOh_JJmEE-unsplash_mbwsfm.jpg");
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603480868/maths_jugthr.jpg");
     color: orange;
     background-size: cover;
     text-align: center;
@@ -155,7 +154,7 @@ p a {
 }
 
 .sec2 {
-    background: url("https://files.slack.com/files-pri/T015KBZHXFY-F01CWHFAAGK/doug-linstedt-jeeyzsaxbh4-unsplash.jpg");
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603480885/astronaumy_lpbsny.jpg");
     color: white;
     background-size: cover;
     text-align: center;
@@ -166,7 +165,7 @@ p a {
 }
 
 .sec3 {
-    background: url("https://files.slack.com/files-pri/T015KBZHXFY-F01DL6QDUKS/damian-patkowski-t-lfvx-7ivg-unsplash.jpg");
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603480885/architecture_h1oler.jpg");
     color: blue;
     background-size: cover;
     text-align: center;
@@ -179,7 +178,7 @@ p a {
 }
 
 .sec4 {
-    background: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fres.cloudinary.com%2Fdjeukfvxv%2Fimage%2Fupload%2Fv1603129384%2Fharshil-gudka-0prglfrYY08-unsplash_zkpiin.jpg");
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603481115/medicine11_oyzq60.jpg");
     color: orangered;
     background-size: cover;
     text-align: center;
@@ -192,7 +191,7 @@ p a {
 }
 
 .sec5 {
-    background: url("https://media.itpro.co.uk/image/upload/t_content-image-mobile@1/v1570816060/itpro/2017/01/bigstock-beautiful-sunset-by-the-beach-13610360.jpg");
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603480868/metallurgy_yclxzs.jpg");
     color: white;
     background-size: cover;
     text-align: center;
@@ -201,4 +200,55 @@ p a {
     height: 100% 100%;
     font-family: 'Sansita Swashed',
         cursive;
+}
+
+.sec6 {
+    background: url("https://res.cloudinary.com/djeukfvxv/image/upload/v1603480869/navigation_zuvzwt.png");
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+
+.back {
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    margin-left: 650px;
+    text-align: center;
+}
+
+.an {
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.main {
+    size: -30px;
+}
+
+.arrow {
+    display: flex;
+    padding: 10px;
+    margin-left: 550px;
+    position: relative;
+    animation: mymove 3s infinite;
+    animation-play-state: running;
+}
+
+
+
+@keyframes mymove {
+    from {
+        bottom: 15px;
+    }
+
+    to {
+        bottom: 100px;
+    }
 }
