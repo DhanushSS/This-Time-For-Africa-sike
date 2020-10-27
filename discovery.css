@@ -239,3 +239,8 @@ p a {
         bottom: 100px;
     }
 }
+
+
+.ie {
+    display: inline;
+}

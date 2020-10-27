@@ -237,3 +237,7 @@ a {
     font-family: 'Sansita Swashed',
         cursive;
 }
+
+.ie {
+    display: inline;
+}

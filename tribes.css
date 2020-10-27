@@ -180,8 +180,8 @@ a {
 }
 
 .sec4 {
-    background: url("https://www.usnews.com/dims4/USNEWS/876357c/2147483647/thumbnail/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F02%2F99ffb1080d76121680b0583cef38bf%2Ftag%3Areuters.com%2C2020%3Anewsml_LYNXMPEG0E01W%3A12020-01-15T013021Z_1_LYNXMPEG0E01W_RTROPTP_3_BRAZIL-INDIGENOUS.JPG");
-    color: orangered;
+    background: url("https://dynaimage.cdn.cnn.com/cnn/q_auto,w_412,c_fill,g_auto,h_412,ar_1:1/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F190429153311-jimmy-nelson-latmul.jpg");
+    color: white;
     background-size: cover;
     text-align: center;
     padding: 10%;
@@ -241,5 +241,7 @@ a {
         bottom: 100px;
     }
 }
-
+.ie {
+    display: inline;
+}
 

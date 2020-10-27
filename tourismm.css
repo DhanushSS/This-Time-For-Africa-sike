@@ -97,7 +97,7 @@ body {
 }
 
 .sec7 {
-    background: url("https://img.freepik.com/free-vector/african-fabric-animal-skin-background_23-2148121501.jpg?size=626&ext=jpg");
+    background: red;
     color: white;
     background-size: cover;
     text-align: center;
@@ -108,6 +108,173 @@ body {
         cursive;
 }
 
+.sec8 {
+    background: blue;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+.sec9 {
+    background: green;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+.sec10 {
+    background: mediumaquamarine;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+.sec11 {
+    background: orange;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+.sec12 {
+    background: royalblue;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+.sec13 {
+    background: green;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+.sec14 {
+    background: cyan ;
+    color:white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+.sec15{
+    background: black;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+
+.sec16 {
+    background: pink;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+.sec17 {
+    background: violet;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+.sec18 {
+    background: indianred;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+
+.sec19 {
+    background: indigo;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+.sec20 {
+    background: gray;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+.sec21 {
+    background: goldenrod;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+.sec22 {
+    background: magenta;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 10%;
+    font-size: 2em;
+    height: 100% 100%;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
 
 
 
@@ -272,4 +439,8 @@ a {
     to {
         bottom: 100px;
     }
+}
+
+.ie{
+    display: inline;
 }
